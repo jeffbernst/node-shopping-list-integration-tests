@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-deploy: salty-shelf-31308
+deploy: 
   provider: heroku
   api_key:
     secure: nEmWyUvkGrJ46itvWs3fhgFR/nMk92qNZBolOGjwA/0D/xJv8WMQ7nO8UaRXL5mT8m892rnweddzJ5dcwUfoB0UCN5t0/bceTxwuWOALqD9wyeT+6p3jxmFL+QcRbMID2zSPZ6IKZG+v5qF2dYUZXp92yDxUGeiV0Q+uTk4Ku8p5iD0iPonIkP7t4lfmldRt7vTO7PQNh46sgsh+CDiMUrO41bsRVuioKs1rF5KpXocm29QgwjQvBIqT61ETVgiwNQCcunRLLam6fq7eWbIm5n76YtuvfOKKhUNHV+WaY88QeOvWgDArhdFPWJauJo8ovGs8e/Xd0cDN+TlWFBEgdmeYxiaOzd36BJfchr9eTHNPmA4zY5kzghKYt9y1Z6yKV8K1/uqbirLRSDD60vHhC73SQF/xCUBxGcY+OpzLTOkuxsjp3keLWn7spelAQtp9ysTCfN7PMQ4qYZYXZbeKF9jVJQfNZWQuj9v0y+c04+Og06zz+rdr7HUzzWUu9cs7MuF4zQnAypM/0QUq399Yt8GUBdub/gP+9JAjkBUwwOXMVCQfuIDFKspq8ow27swHrbC0k8wz34G2bqyO9dWZuMdzz9p9Pn67jPlfhQl+dt/bZfdOLwZsAAlWhXj6oUJIsWm/6m9iw74HG283Jo6SVDU7rcSV29JQqDN8zbeA/7M=
-  app: node-shopping-list-integration-tests
+  app: salty-shelf-31308
   on:
     repo: jeffbernst/node-shopping-list-integration-tests
